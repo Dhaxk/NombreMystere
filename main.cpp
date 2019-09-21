@@ -6,6 +6,12 @@ using namespace std;
 int main(){
 
 	int nombre=0;
+	int nombreMystere = 0;
+
+	srand(time(NULL));
+	// genere un nombre aléatoire entre 0 et 99 et le stocke dans la variable nombreMystere
+	nombreMystere = (rand()%(100));
+
 	// afficher un texte à l'écran
 	cout << "entrez un nombre" << endl;
 	// lire le nombre tapé au clavier et l'enregistrer dans la variable nombre
