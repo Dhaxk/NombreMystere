@@ -13,7 +13,7 @@ int main(){
 	nombreMystere = (rand()%(100));
 
 	// afficher un texte à l'écran
-	cout << "entrez un nombre entre 1 et 100" << endl;
+	cout << "Entrez un nombre entre 1 et 100 : ";
 
 		while (nombreMystere!=nombre)
 		{
@@ -21,9 +21,9 @@ int main(){
 		// lire le nombre tapé au clavier et l'enregistrer dans la variable nombre
 		cin >> nombre ;
 			if(nombreMystere<nombre)
-				cout << "Trop Grand" << endl;
+				cout << "Trop Grand, essaye encore" << endl;
 			else if (nombreMystere>nombre)
-				cout << "Trop Petit" << endl;
+				cout << "Trop Petit, essaye encore" << endl;
 		}
 
 	// Affiche ce message quand le nombre est trouvé
