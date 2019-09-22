@@ -32,7 +32,7 @@ int main(){
 	// Affiche ce message quand le nombre est trouvé
 	cout << "Félicitation vous avez trouvé le nombre mystère (" << nombre << ") en : " << essais << " essais !" << endl;
 	cout << "voulez-vous rejouer ? Tapez 0 pour arreter ou 1 pour rejouer" << endl;
-	cin >> continu
+	cin >> continu;
 	}
 
 	//le programme se termine normalement en renvoyant 0
